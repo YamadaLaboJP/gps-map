@@ -2,6 +2,8 @@
 
 シンプルな地図アプリケーション。ブラウザのGeolocation APIを使って現在地を取得し、OpenStreetMap上に表示します。
 
+**公開URL:** https://dj8bit.github.io/gps-map/
+
 ## 機能
 
 - 📍 現在地の自動取得と地図表示
@@ -29,6 +31,10 @@ npm run build
 ```
 
 ビルド成果物は `dist/` フォルダに出力されます。
+
+## GitHub Pages
+
+`main` への push で GitHub Actions が Vite ビルドを実行し、[GitHub Pages](https://dj8bit.github.io/gps-map/) に公開します。手動実行する場合は Actions の **Deploy to GitHub Pages** ワークフローから Run workflow を選んでください。
 
 ## 技術スタック
 
